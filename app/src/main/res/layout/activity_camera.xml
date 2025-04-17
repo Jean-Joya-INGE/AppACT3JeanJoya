@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnTakePicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_take_picture"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/ivCapturedImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image_description"
+            android:background="#f0f0f0"/>
+
+        <TextView
+            android:id="@+id/tvPhotoPlaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/photo_placeholder"
+            android:gravity="center"
+            android:textColor="#666666"
+            android:textSize="18sp"/>
+    </FrameLayout>
+</LinearLayout>

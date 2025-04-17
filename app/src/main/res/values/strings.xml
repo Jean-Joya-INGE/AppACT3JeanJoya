@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Pantalla Recursos ACT3 Jean</string>
+
+    <!-- Main Activity Strings -->
+    <string name="app_title">Aplicación de Recursos del Dispositivo</string>
+    <string name="developers">Desarrollado por: Jean Marco Ortega Joya</string>
+    <string name="android_version">Versión Android: </string>
+
+    <!-- Bluetooth strings -->
+    <string name="bluetooth_section">1. Bluetooth</string>
+    <string name="btn_activate">Activar</string>
+    <string name="btn_deactivate">Desactivar</string>
+    <string name="btn_open_bluetooth">Abrir Configuración Bluetooth</string>
+    <string name="bluetooth_status">Estado Bluetooth</string>
+    <string name="btn_toggle_bluetooth">Alternar Bluetooth</string>
+    <string name="btn_list_devices">Listar Dispositivos Emparejados</string>
+    <string name="paired_devices_label">Dispositivos Emparejados:</string>
+    <string name="bluetooth_enabled">Bluetooth: ACTIVADO</string>
+    <string name="bluetooth_disabled">Bluetooth: DESACTIVADO</string>
+    <string name="no_paired_devices">No hay dispositivos emparejados</string>
+
+    <!-- Flashlight strings -->
+    <string name="flashlight_section">2. Linterna</string>
+    <string name="btn_on">Encender</string>
+    <string name="btn_off">Apagar</string>
+
+    <!-- Camera Strings -->
+    <string name="camera_section">3. Abrir Cámara</string>
+    <string name="btn_take_picture">Tomar Fotografía</string>
+    <string name="image_description">Imagen capturada</string>
+    <string name="photo_placeholder">Aquí se mostrará la foto capturada</string>
+
+    <!-- Battery strings -->
+    <string name="battery_section">4. Nivel de Batería</string>
+    <string name="battery_level">Nivel: </string>
+
+    <!-- Connection strings -->
+    <string name="connection_section">5. Estado de Conexión</string>
+    <string name="connection_status">Estado: </string>
+
+    <!-- Storage strings -->
+    <string name="storage_section">6. Guardar Información</string>
+    <string name="hint_file_name">Nombre del archivo</string>
+    <string name="btn_save_file">Guardar Archivo</string>
+
+    <!-- Messages strings -->
+    <string name="bluetooth_not_supported">Bluetooth no soportado</string>
+    <string name="no_camera_app">No se encontró aplicación de cámara</string>
+    <string name="file_saved">Archivo guardado con éxito</string>
+    <string name="enter_filename">Ingrese un nombre de archivo</string>
+    <string name="storage_unavailable">Almacenamiento no disponible</string>
+    <string name="enable_bluetooth">Por favor active el Bluetooth</string>
+    <string name="permissions_required">Permisos requeridos</string>
+    <string name="permissions_explanation">Esta aplicación necesita permisos para funcionar correctamente</string>
+</resources>

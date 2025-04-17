@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Título principal -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Información de estudiantes -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/developers"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Versión de Android -->
+    <TextView
+        android:id="@+id/tvVersionAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/android_version"
+        android:textSize="16sp"/>
+
+    <!-- Sección Bluetooth -->
+    <TextView
+        android:id="@+id/tvBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/bluetooth_section"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDesactivar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_deactivate"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/btnActivar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_activate"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOpenBluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_open_bluetooth"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Sección Linterna -->
+    <TextView
+        android:id="@+id/tvFlash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/flashlight_section"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/OffFlash"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_off"
+            android:layout_marginEnd="8dp"/>
+
+        <Button
+            android:id="@+id/OnFlash"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_on"/>
+    </LinearLayout>
+
+    <!-- Sección Cámara -->
+    <Button
+        android:id="@+id/btnOpenCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/camera_section"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Sección Batería -->
+    <TextView
+        android:id="@+id/tvBateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/battery_section"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvNivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/battery_level"
+        android:layout_marginTop="8dp"/>
+
+    <ProgressBar
+        android:id="@+id/pbLevelBaterry"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Sección Conexión -->
+    <TextView
+        android:id="@+id/tvConection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/connection_section"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvConection2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connection_status"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Sección Almacenamiento -->
+    <TextView
+        android:id="@+id/tvAlmacenamiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/storage_section"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etNombreArchivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint_file_name"
+        android:inputType="text"
+        android:minHeight="48dp"/>
+
+    <Button
+        android:id="@+id/btnGuardarArchivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/btn_save_file"/>
+</LinearLayout>
